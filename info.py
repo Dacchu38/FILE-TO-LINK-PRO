@@ -15,26 +15,26 @@ def is_enabled(value, default):
 # 🤖 BOT INFO & CREDENTIALS
 # =========================================================
 SESSION = environ.get('SESSION', 'Webavbot')
-API_ID = int(environ.get('API_ID', '12000656'))
-API_HASH = environ.get('API_HASH', 'd927c13beaaf5110f2c071273')
-BOT_TOKEN = environ.get('BOT_TOKEN', '70917168:AAF8TzmnNYW721xIUUuseLU41xa5bRA')
+API_ID = int(environ.get('API_ID', '29388536'))
+API_HASH = environ.get('API_HASH', '1795cfeb72fdd9741bbaab5e02c57668')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7436884583:AAEhOx1HzTIgFLA8zLBoi86sizc5VShu6IQ')
 
 # Admin Settings
-ADMINS = [int(x) for x in environ.get('ADMINS', '5977931010').split()]
+ADMINS = [int(x) for x in environ.get('ADMINS', '5912466219').split()]
 OWNER_USERNAME = environ.get("OWNER_USERNAME", 'BOT_OWNER26')
 
 # =========================================================
 # 🗄️ DATABASE CONNECTION
 # =========================================================
-DB_URL = environ.get('DATABASE_URI', "mongodb+srv://teshsjsg1:axxxxtz@testing.kwuyhwka.mongodb.net/?appName=testing")
+DB_URL = environ.get('DATABASE_URI', "mongodb+srv://rai:rai@cluster0.fktwown.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get('DATABASE_NAME', "testing")
 
 # =========================================================
 # 📢 CHANNELS & LOGS
 # =========================================================
 # Mandatory Channels
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002114619001'))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1002114619001'))
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1003571958820'))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1003571958820'))
 
 # Feature Specific Logs
 PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1002114619001'))
@@ -48,8 +48,8 @@ AUTH_CHANNEL = [int(x) for x in auth_channel_str.split()] if auth_channel_str el
 # =========================================================
 # 🔗 LINKS & URLS
 # =========================================================
-CHANNEL = environ.get('CHANNEL', 'https://t.me/AV_BOTz_UPDATE')
-SUPPORT = environ.get('SUPPORT', 'https://t.me/AV_SUPPORT_GROUP')
+CHANNEL = environ.get('CHANNEL', 'https://t.me/DVITTALBOTZ')
+SUPPORT = environ.get('SUPPORT', 'https://t.me/DVITTALBOTZ_DISSCUSSION')
 TUTORIAL_LINK_1 = environ.get('TUTORIAL_LINK_1', 'https://t.me/1')
 TUTORIAL_LINK_2 = environ.get('TUTORIAL_LINK_2', 'https://t.me/2')
 
